@@ -11,12 +11,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID"/>
+        android:text="ID" />
+
     <EditText
+        android:id="@+id/idEdt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
 
+    <CheckBox
+        android:id="@+id/idCeckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID 저장" />
 
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인" />
 
 
 </LinearLayout>
